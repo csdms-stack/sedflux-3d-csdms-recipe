@@ -7,6 +7,7 @@ env:
   - THIS_PACKAGE="csdms-sedflux-3d"
   - TRAVIS_PYTHON_VERSION="2.7"
   - NUMPY_VERSION="1.9"
+  - secure: n+RKJJ1pL2NhTXOFH6cT2Qk0OHH/W9LpQYT7f8un7sorIsM183aTjlr9tFDH6B6nt4jt5seHAHOAyejmmCj9U8b/2jTV31v3jA5aGyTaNgoxf+8Z9PwI/2aNymB9nVPXdGo+2HZxT/oYiofVNCy5O+5cWvW9RJ0ZvEiYM8zIi5lpmxK/XyCnJmisV/4EOcu00Icovjg3I7XnA7Um9Jpxgyjf1V/cM6IcDgATVA/YWN8fW2+ub2VoDw4yTTGlKBaA+QhFKiTOgj5Ab+Ys2/8t8bad8mNeZwIOPRSZYaxK52Nd12tnbezYt6D5liUJ/h2Rf58ACbptOaupIJKinF0hTfowqNbt6mTuyysQlzq5b5tw+da15Wy0nnyMT1Fniog9r2Sj0feKfqRZHZayjkGgUDv+DAbnPmHQscJby0jHzkdKnIEaO5sE4p6VbjL60fOwUvrh4xU9a3e4uQYYyUo5OE9MQLTqPKdUoLuqToYJWUHfdA04gL10jguF+zVj3dywoQdQl3iwXIVDMdzcMcHBgGcAjkjyiC2IcjvZdlaSIa7DibE6cr+xbKboklULW3tX+fLy83iY5dgcS1EYMc5x1CbCKmXU+bY7YsMLryCdRAVPia5GIT+Rf30N/2zLOJhkut8jE536UyjSbVEsjXJT/E9lj5e/Gclcck2/ADDC5A8=
 sudo: false
 before_install:
 - |
