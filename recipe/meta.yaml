@@ -1,0 +1,29 @@
+{% set name = "csdms-sedflux-3d" %}
+{% set version = "3.0" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  git_url: https://github.com/mcflugen/sedflux
+  git_branch: add-function-pointers
+
+requirements:
+  build:
+    - bmi-babel
+    - sedflux
+  run:
+    - bmi-babel
+    - sedflux
+
+test:
+  requires:
+    - pymt
+
+about:
+  home: https://github.com/mcflugen/sedflux
+  license: MIT
+  summary: 3D sedflux
+  doc_url: http://sedflux.readthedocs.io/
+  dev_url: http://github.com/mcflugen/sedflux
