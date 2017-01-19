@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 import os
 
+os.environ['PYMT_DEBUG'] = '1'
+
 os.mkdir('_testing')
 os.chdir('_testing')
 
