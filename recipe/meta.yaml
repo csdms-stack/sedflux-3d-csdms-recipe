@@ -11,11 +11,11 @@ source:
 
 requirements:
   build:
-    - cca-babel
+    - cca-babel <2
     - bmi-babel
     - sedflux
   run:
-    - cca-babel
+    - cca-babel <2
     - bmi-babel
     - sedflux
 
