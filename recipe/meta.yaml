@@ -11,15 +11,20 @@ source:
 
 requirements:
   build:
+    - cca-babel
     - bmi-babel
     - sedflux
   run:
+    - cca-babel
     - bmi-babel
     - sedflux
 
 test:
   requires:
     - pymt
+
+build:
+  tracks: cb14
 
 about:
   home: https://github.com/mcflugen/sedflux
