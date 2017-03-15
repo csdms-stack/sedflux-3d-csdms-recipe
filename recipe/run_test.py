@@ -9,6 +9,9 @@ os.chdir('_testing')
 from pymt.components import Sedflux3D as Model
 
 model = Model()
+model.setup('.')
+model.initialize('sedflux_3d_init.kvf')
+print(model.as_yaml())
 
 for default in model.defaults:
     print('{name}: {val} {units}'.format(
