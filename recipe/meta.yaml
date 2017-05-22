@@ -24,7 +24,7 @@ test:
     - pymt
 
 build:
-  number: 1
+  number: 2
   tracks: cb14
 
 about:
