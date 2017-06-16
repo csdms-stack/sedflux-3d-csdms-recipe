@@ -5,7 +5,7 @@
 
 # Current Build Status
 
-Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/csdms-sedflux-3d-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/csdms-sedflux-3d-recipe)
+Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/sedflux-3d-csdms-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/sedflux-3d-csdms-recipe)
 
 # About csdms-sedflux-3d
 
