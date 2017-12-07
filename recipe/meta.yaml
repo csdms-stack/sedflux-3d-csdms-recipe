@@ -12,20 +12,22 @@ source:
 requirements:
   build:
     - cca-babel <2
-    - bmi-babel
+    - babelizer
+    - scipy <=0.18.1
     - sedflux
-    - pymt
   run:
     - cca-babel <2
-    - bmi-babel
+    - babelizer
+    - scipy <=0.18.1
     - sedflux
 
 test:
   requires:
+    - matplotlib
     - pymt
 
 build:
-  number: 2
+  number: 3
   tracks: cb14
 
 about:
