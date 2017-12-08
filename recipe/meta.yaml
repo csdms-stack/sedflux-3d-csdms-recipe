@@ -17,7 +17,8 @@ requirements:
     - sedflux
   run:
     - cca-babel <2
-    - babelizer
+    - cca-spec-babel
+    - ccaffeine
     - scipy <=0.18.1
     - sedflux
 
@@ -27,7 +28,7 @@ test:
     - pymt
 
 build:
-  number: 3
+  number: 4
   tracks: cb14
 
 about:
