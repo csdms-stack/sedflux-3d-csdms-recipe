@@ -13,13 +13,13 @@ requirements:
   build:
     - cca-babel <2
     - babelizer
-    - scipy <=0.18.1
+    - scipy
     - sedflux
   run:
     - cca-babel <2
     - cca-spec-babel
     - ccaffeine
-    - scipy <=0.18.1
+    - scipy
     - sedflux
 
 test:
