@@ -31,7 +31,7 @@ install:
 - conda install python=$TRAVIS_PYTHON_VERSION
 - conda install -q conda-build anaconda-client coverage sphinx
 script:
-- travis_wait 40 conda build ./recipe -c csdms-stack -c conda-forge --old-build-string
+- travis_wait 40 conda build ./recipe -c csdms-stack -c defaults -c conda-forge --old-build-string
 after_success:
 - curl https://raw.githubusercontent.com/csdms/ci-tools/master/anaconda_upload.py > $HOME/anaconda_upload.py
 - echo $ANACONDA_TOKEN | python $HOME/anaconda_upload.py ./recipe --channel=main --org=csdms-stack --old-build-string --token=-
