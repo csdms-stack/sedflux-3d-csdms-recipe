@@ -22,6 +22,7 @@ requirements:
 test:
   requires:
     - pymt
+    - landlab
 
 build:
   number: 4
