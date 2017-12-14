@@ -47,6 +47,5 @@ conda install -q conda-build anaconda-client coverage sphinx
 conda build /recipe_root --quiet || exit 1
 
 curl https://raw.githubusercontent.com/csdms/ci-tools/master/anaconda_upload.py > anaconda_upload.py
-# echo $BINSTAR_TOKEN | python anaconda_upload.py /recipe_root --channel=main --org=csdms-stack --token=-
-echo "NOT UPLOADING"
+echo $BINSTAR_TOKEN | python anaconda_upload.py /recipe_root --channel=main --org=csdms-stack --token=-
 EOF
