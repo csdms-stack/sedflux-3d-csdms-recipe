@@ -13,13 +13,11 @@ requirements:
   build:
     - babelizer
     - sedflux
-    - landlab
   run:
     - cca-babel <2
     - cca-spec-babel
     - ccaffeine
     - sedflux
-    - landlab
 
 test:
   requires:

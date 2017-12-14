@@ -16,7 +16,6 @@ channels:
  - csdms-stack
  - defaults # As we need conda-build
  - conda-forge
- - landlab
 
 conda-build:
  root-dir: /feedstock_root/build_artefacts
