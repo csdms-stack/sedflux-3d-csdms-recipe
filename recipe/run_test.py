@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 import os
 
+os.environ['MPLBACKEND'] = 'Agg'
 os.environ['PYMT_DEBUG'] = '1'
 
 os.mkdir('_testing')
@@ -9,8 +10,8 @@ os.chdir('_testing')
 from pymt.components import Sedflux3D as Model
 
 model = Model()
-model.setup('.')
-model.initialize('sedflux_3d_init.kvf')
+config_file, config_dir = model.setup('.')
+model.initialize(config_file, dir=config_dir)
 print(model.as_yaml())
 
 for default in model.defaults:
